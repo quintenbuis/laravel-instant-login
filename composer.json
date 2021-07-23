@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "quintenbuis/laravel-instant-login",
+    "description": "Instantly login as user via a single button tap. Especially useful for dev environments.",
     "keywords": [
-        ":vendor_name",
+        "quintenbuis",
         "laravel",
-        "package_slug"
+        "laravel-instant-login"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/quintenbuis/laravel-instant-login",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Quinten Buis",
+            "email": "quinten.buis@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Quintenbuis\\InstantLogin\\": "src",
+            "Quintenbuis\\InstantLogin\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Quintenbuis\\InstantLogin\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Quintenbuis\\InstantLogin\\InstantLoginServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "InstantLogin": "Quintenbuis\\InstantLogin\\InstantLoginFacade"
             }
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Quintenbuis\InstantLogin\Tests;
 
 class ExampleTest extends TestCase
 {
