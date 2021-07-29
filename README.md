@@ -54,18 +54,7 @@ OR
 ```
 And it will login the first user it finds.
 
-If it only needs to be shown on dev environments put it in an if statement:
-```blade
-@production
-    <x-instant-login::button />
-@endproduction
-
-OR
-
-@if(app()->isProduction())
-    <x-instant-login::button />
-@endif
-```
+The instant login button protects against production environments by default.
 
 If you want to customize which user to get you can add the following to (for example) your `AppServiceProvider`:
 ```php
