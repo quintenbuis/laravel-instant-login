@@ -1,4 +1,4 @@
-# Instantly login as user via a single button tap. Especially useful for dev environments.
+![quintenbuis/laravel-instant-login Banner](https://banners.beyondco.de/Laravel%20Instant%20Login.png?theme=light&packageManager=composer+require&packageName=quintenbuis%2Flaravel-instant-login&pattern=architect&style=style_1&description=Instantly+login+to+your+application&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/quintenbuis/laravel-instant-login.svg?style=flat-square)](https://packagist.org/packages/quintenbuis/laravel-instant-login)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/quintenbuis/laravel-instant-login/run-tests?label=tests)](https://github.com/quintenbuis/laravel-instant-login/actions?query=workflow%3Arun-tests+branch%3Amain)
