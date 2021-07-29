@@ -15,9 +15,12 @@ class InstantLoginServiceProvider extends PackageServiceProvider
             ->name('instant-login')
             ->hasConfigFile()
             ->hasViews();
+    }
 
-        if (! $this->app->isProduction()) {
-            Route::post('/instant-login', InstantLoginController::class)->name('instant-login');
-        }
+    public function boot()
+    {
+        parent::boot();
+
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }

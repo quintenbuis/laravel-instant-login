@@ -2,11 +2,16 @@
 
 namespace Quintenbuis\InstantLogin\Http\Controllers;
 
+use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 class InstantLoginController
 {
-    public function __invoke()
+    public function __invoke(Request $request)
     {
-        // TODO: Figure out how to authenticate model and have it persist
-        return redirect('/dashboard');
+        Auth::login(User::first());
+
+        return redirect()->intended(config('instant-login.redirect'));
     }
 }
