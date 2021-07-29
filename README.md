@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/quintenbuis/laravel-instant-login.svg?style=flat-square)](https://packagist.org/packages/quintenbuis/laravel-instant-login)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/quintenbuis/laravel-instant-login/run-tests?label=tests)](https://github.com/quintenbuis/laravel-instant-login/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/quintenbuis/laravel-instant-login/Check%20&%20fix%20styling?label=code%20style)](https://github.com/quintenbuis/laravel-instant-login/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/quintenbuis/laravel-instant-login.svg?style=flat-square)](https://packagist.org/packages/quintenbuis/laravel-instant-login)
 
 Getting tired of always entering login details in local dev environments? 
