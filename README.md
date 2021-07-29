@@ -54,6 +54,19 @@ Add the login button to your view with:
 ```
 And it will login the first user it finds.
 
+If it only needs to be shown on dev environments put it in an if statement:
+```blade
+@production
+    <x-instant-login::button />
+@endproduction
+
+// OR
+
+@if(app()->isProduction())
+    <x-instant-login::button />
+@endif
+```
+
 If you want to customize which user to get you can add the following to (for example) your `AppServiceProvider`:
 ```php
 InstantLogin::filterUsing([
