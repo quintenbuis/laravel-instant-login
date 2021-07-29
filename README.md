@@ -45,10 +45,10 @@ return [
 ## Usage
 
 Add the login button to your view with:
-```html
+```blade
 <x-instant-login::button />
 
-// OR
+OR
 
 @include('instant-login::components/button')
 ```
@@ -60,7 +60,7 @@ If it only needs to be shown on dev environments put it in an if statement:
     <x-instant-login::button />
 @endproduction
 
-// OR
+OR
 
 @if(app()->isProduction())
     <x-instant-login::button />
