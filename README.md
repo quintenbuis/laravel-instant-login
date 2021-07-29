@@ -30,6 +30,10 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'model' => \App\Models\User::class,
+
+    'guard' => 'web',
+    
     'route' => [
         'name' => 'instant-login',
         'url'  => '/instant-login',
@@ -37,7 +41,6 @@ return [
 
     'redirect' => null,
 ];
-
 ```
 
 ## Usage
@@ -67,8 +70,6 @@ composer test
 ## Todo
 
 [] Write tests
-
-[] Add specification for authenticatable model in config
 
 ## Changelog
 
