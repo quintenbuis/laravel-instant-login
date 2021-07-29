@@ -17,12 +17,12 @@ composer require quintenbuis/laravel-instant-login
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Quintenbuis\InstantLogin\InstantLoginServiceProvider" --tag="laravel-instant-login-config"
+php artisan vendor:publish --provider="Quintenbuis\InstantLogin\InstantLoginServiceProvider" --tag="instant-login-config"
 ```
 
 You can publish the views with:
 ```bash
-php artisan vendor:publish --provider="Quintenbuis\InstantLogin\InstantLoginServiceProvider" --tag="laravel-instant-login-views"
+php artisan vendor:publish --provider="Quintenbuis\InstantLogin\InstantLoginServiceProvider" --tag="instant-login-views"
 ```
 
 This is the contents of the published config file:
