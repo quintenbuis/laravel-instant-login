@@ -48,6 +48,10 @@ return [
 Add the login button to your view with:
 ```html
 <x-instant-login::button />
+
+// OR
+
+@include('instant-login::components/button')
 ```
 And it will login the first user it finds.
 
