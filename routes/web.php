@@ -5,7 +5,7 @@ use Quintenbuis\InstantLogin\Http\Controllers\InstantLoginController;
 
 if (! app()->isProduction()) {
     Route::middleware('web')
-        ->post(
+        ->get(
             config('instant-login.route.url'),
             InstantLoginController::class
         )
