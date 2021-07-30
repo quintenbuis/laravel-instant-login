@@ -76,7 +76,7 @@ This will be going through the `where()` method on the model.
 ## Testing
 
 ```bash
-vendor/bin/pest
+composer test
 ```
 
 ## Changelog
