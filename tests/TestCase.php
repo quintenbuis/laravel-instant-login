@@ -8,7 +8,7 @@ use Quintenbuis\InstantLogin\InstantLoginServiceProvider;
 
 class TestCase extends Orchestra
 {
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 
