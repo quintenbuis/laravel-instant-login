@@ -69,12 +69,8 @@ This will be going through the `where()` method on the model.
 ## Testing
 
 ```bash
-composer test
+vendor/bin/pest
 ```
-
-## Todo
-
-[] Write tests
 
 ## Changelog
 
