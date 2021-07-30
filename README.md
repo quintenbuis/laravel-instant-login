@@ -55,9 +55,9 @@ Add the login button to your view with:
 ```blade
 <x-instant-login::button />
 
-OR
+With custom classes
 
-@include('instant-login::components/button')
+<x-instant-login::button class="bg-red-600" />
 ```
 And it will login the first user it finds.
 
