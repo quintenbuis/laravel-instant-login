@@ -2,8 +2,6 @@
 
 namespace Quintenbuis\InstantLogin;
 
-use Illuminate\Support\Facades\Route;
-use Quintenbuis\InstantLogin\Http\Controllers\InstantLoginController;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
