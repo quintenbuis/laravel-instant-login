@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Database\Schema\Blueprint;
+
 uses(\Quintenbuis\InstantLogin\Tests\TestCase::class)->in(__DIR__);
 
 /*
@@ -41,7 +43,7 @@ expect()->extend('toBeOne', function () {
 
 function setupUsersTable()
 {
-    \Illuminate\Support\Facades\Schema::create('users', function (\Illuminate\Database\Schema\Blueprint $table) {
+    \Illuminate\Support\Facades\Schema::create('test_users', function (Blueprint $table) {
         $table->id();
         $table->string('name');
         $table->string('email')->unique();

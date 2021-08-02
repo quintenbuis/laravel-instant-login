@@ -1,17 +1,17 @@
 <?php
 
 use Quintenbuis\InstantLogin\InstantLogin;
-use Quintenbuis\InstantLogin\Tests\Models\User;
+use Quintenbuis\InstantLogin\Tests\Models\TestUser;
 
 uses(\Illuminate\Foundation\Testing\RefreshDatabase::class);
 
 beforeEach(function () {
     config()->set('app.key', 'base64:5MZ8wCacI8omsEi7j0MrXixnQWEt/CVUTRa2sMe/k6w=');
-    config()->set('instant-login.model', User::class);
+    config()->set('instant-login.model', TestUser::class);
 
     setupUsersTable();
 
-    User::create([
+    TestUser::create([
         'name'     => 'test 1',
         'email'    => 'test@test1.com',
         'password' => bcrypt('test123'),
@@ -29,7 +29,7 @@ it('logs in the user', function () {
 });
 
 test('the user can be filtered', function () {
-    User::create([
+    TestUser::create([
         'name'     => 'test 2',
         'email'    => 'test@test2.com',
         'password' => bcrypt('test123'),
