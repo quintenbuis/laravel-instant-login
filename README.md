@@ -66,7 +66,7 @@ The instant login button protects against production environments by default.
 If you want to customize which user to get you can add the following to (for example) your `AppServiceProvider`:
 ```php
 InstantLogin::filterUsing([
-    ['email' => 'quinten.buis@gmail.com'],
+    ['email' => 'someadmin@example.com'],
     ['admin' => true]
 ]);
 ```
